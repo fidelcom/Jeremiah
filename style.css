@@ -75,3 +75,29 @@ a.active,a:hover{
 .hamburger.is-active .bar{
     opacity: 0;
 }
+
+/*.mobile-nav{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: fit-content;
+    display:block;
+    z-index: 98;
+   
+    padding-top: 120px;
+}
+   .mobile-nav a{
+     display: block;
+     width: 100%;
+     max-width: 200px;
+     margin: 0 auto 16px;
+     text-align: center;
+     padding: 12px 16px;
+     background-color:rgb(231, 209, 222);
+     color: white;
+     text-decoration: none;
+    }
+    .mobile-nav a:hover{
+        background-color: rgb(240, 169, 169);
+    }*/
