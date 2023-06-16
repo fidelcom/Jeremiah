@@ -1,9 +1,8 @@
-window.onload = function () {
-
-    const menu_btn = document.querySelector('.hamburger');
-
-    menu_btn.addEventListener('click', function () {
-        menu_btn.classList.toggle('is-active');
-    });
-
-}
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
