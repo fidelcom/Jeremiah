@@ -37,9 +37,15 @@ header{
   display: none;
 }
 
+.navbar input{
+  border-radius: 20px;
+  height: 30px;
+  border-color: gray;
+}
+
 .navbar ul{
   display: flex;
-  margin-top: 50px;
+  margin-top:20px;
 }
 
 .navbar ul li a{
@@ -74,10 +80,12 @@ header{
 @media only screen and (max-width: 900px){
   header{
     flex-direction: row;
+    
   }
   .hamburger{
     display: block;
     cursor: pointer;
+    margin-top: 70px;
   }
   .hamburger .line{
     width: 20px;
@@ -97,8 +105,8 @@ header{
     left: 0;
     right: 0;
     width: 100vw;
-    background: #11101b;
-    transition: 0.2s;
+    background: whitesmoke;
+    transition: 1s;
     overflow: hidden;
   }
   .navbar.active{
@@ -107,8 +115,8 @@ header{
   .navbar ul{
     display: block;
     width: fit-content;
-    margin: 30px auto 0 auto;
-    text-align: center;
+    margin: 30px auto 0 5px;
+    text-align: left;
     transition: 0.5s;
     opacity: 0;
   }
@@ -116,6 +124,7 @@ header{
     opacity: 1;
   }
   .logo{
-    font-size: 33px;
+    font-size: 29px;
+    margin-left: 20px;
   }
 }
