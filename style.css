@@ -33,14 +33,46 @@ header{
     margin-top: 50px;
 }
 
+.logo a{
+  color: #000;
+}
+
 .hamburger{
   display: none;
 }
 
-.navbar input{
+.nav2{
+  display: flex;
+  justify-content: space-between;
+}
+
+.search{
+  background: #eaeaea;
+  margin: 15px 0;
+  display: flex;
+  align-items: center;
+  width: fit-content;
   border-radius: 20px;
+}
+
+input{
   height: 30px;
-  border-color: gray;
+  background: transparent;
+  border: 0;
+  outline: 0;
+  padding: 18px 10px;
+}
+
+.search i{
+  margin-left: 15px;
+  color: #999;
+}
+
+.icons i{
+  color: black;
+  margin-right: 10px;
+  margin-top: 10px;
+  height: 20px;
 }
 
 .navbar ul{
@@ -58,7 +90,7 @@ header{
 }
 
 .navbar ul li a:hover{
-  text-decoration:underline;
+  border-bottom: 2px solid black;
 }
 
 .navbar ul li a.active{
