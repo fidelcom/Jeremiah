@@ -30,7 +30,7 @@ header{
     padding: 0 100px;
     font-weight: bold;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 .logo a{
@@ -90,11 +90,65 @@ input{
 }
 
 .navbar ul li a:hover{
-  border-bottom: 2px solid black;
+  text-decoration:underline;
 }
 
 .navbar ul li a.active{
   color: gray;
+}
+
+.maincon1{
+  width: 100%;
+  height: 450px;
+  background-color: black;
+  display: flex;
+  
+}
+
+.maincon1 img{
+  height: 440px;
+  margin-top: 10px;
+}
+
+.maincon1 .text{
+  color: white;
+  align-items: center;
+  margin: 120px 150px 170px ;
+}
+
+.maincon1 .text .try{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.maincon1 .text .diy{
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.maincon1 .text .ext{
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.buy{
+  padding: 15px;
+  width: 200px;
+  background-color: white;
+  border: white;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+button:hover{
+  cursor: pointer;
+}
+
+.learn{
+  padding: 15px;
+  width: 200px;
+  background-color: white;
+  border: white;
 }
 
 @media only screen and (max-width: 1320px){
