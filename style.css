@@ -4,11 +4,15 @@
   list-style: none;
   text-decoration: none;
   font-family: "Google Sans Regular";
-  box-sizing: border-box;
+  box-sizing:border-box;
 }
 
 body{
   background: #fefefe;
+}
+
+.slideshow-container{
+  background-color: rgb(250, 199, 208);
 }
 
 header{
@@ -78,6 +82,7 @@ input{
 .navbar ul{
   display: flex;
   margin-top:20px;
+ 
 }
 
 .navbar ul li a{
@@ -85,35 +90,38 @@ input{
   color: black;
   font-size: 20px;
   padding: 10px 25px;
-  border-radius: 50px;
-  transition: 0.2s;
 }
 
 .navbar ul li a:hover{
-  text-decoration:underline;
+  border-bottom: 3px solid black;
 }
 
 .navbar ul li a.active{
   color: gray;
 }
 
+.navbar ul li a.active:hover{
+  border-bottom: 3px solid gray;
+}
+
 .maincon1{
   width: 100%;
-  height: 450px;
+  height: 610px;
   background-color: black;
   display: flex;
-  
+  flex-direction: row;
 }
 
 .maincon1 img{
-  height: 440px;
+  height: 600px;
+  width: 650px;
   margin-top: 10px;
 }
 
 .maincon1 .text{
   color: white;
   align-items: center;
-  margin: 120px 150px 170px ;
+  margin: 200px 100px 170px ;
 }
 
 .maincon1 .text .try{
@@ -150,6 +158,41 @@ button:hover{
   background-color: white;
   border: white;
 }
+
+.blueband{
+  width: 100%;
+  height: 60px;
+  background-color: rgb(59, 59, 247);
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  padding-top: 15px;
+}
+
+.WWO h2{
+  margin-top: 80px;
+  text-align: center;
+}
+
+.WWO .boxes{
+  display: flex;
+  flex-direction: row;
+}
+
+.WWO .box{
+  border: 2px;
+  margin-top: 50px;
+  margin-left: 30px;
+  width: 300px;
+  height: 300px;
+  padding: 60px;
+  padding-top: 80px;
+  text-align: center;
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255), 
+  0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+
+
 
 @media only screen and (max-width: 1320px){
   header{
