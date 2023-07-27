@@ -11,7 +11,7 @@ body{
   background: #fefefe;
   margin: 0;
   padding: 0;
-  min-width: 882px;
+  min-width: 1053px;
 }
 
 .slideshow-container{
@@ -63,7 +63,7 @@ header{
   border-radius: 20px;
 }
 
-input{
+.navBar .navBarIcons .search input{
   height: 10px;
   background: transparent;
   border: 0;
@@ -165,7 +165,7 @@ input{
 }
 
 .buy{
-  padding: 15px;
+  padding: 15px 45px;
   background-color: white;
   border: white;
   margin-top: 20px;
@@ -178,7 +178,7 @@ button:hover{
 }
 
 .learn{
-  padding: 15px;
+  padding: 15px 45px;
   background-color: white;
   border: white;
   display: inline;
@@ -186,13 +186,14 @@ button:hover{
 
 .blueband{
   width: 100%;
-  height: 60px;
-  background-color: rgb(59, 59, 247);
+  height: 65px;
+  background-color: rgb(90, 90, 194);
   color: white;
   text-align: center;
   font-size: 30px;
   padding-top: 15px;
 }
+
 
 .WWO{
   width: fit-content;
@@ -214,7 +215,7 @@ button:hover{
   margin: 60px 30px 0 30px;
   width: 60%;
   height: 300px; 
-  padding: 40px 30px 30px 30px;
+  padding: 80px 30px 30px 30px;
   text-align: center;
   box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255), 
   0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
@@ -244,12 +245,12 @@ button:hover{
 }
 
 .Three .boxes .box{
-  margin-left: 45px;
+  margin-left: 35px;
 }
 
 .Three img{
-  height: 450px;
-  width: 100%;
+  height: 350px;
+  width: 350px;
   border-radius: 30px;
 }
 
@@ -263,18 +264,17 @@ button:hover{
 }
 
 .kit{
-  background-color: aqua;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
 
 #magnifying_area{
-  width: 100%;
+  width: 500px;
   height: 500px;
   margin-top: 80px;
   margin-left: 140px;
   overflow: hidden;
-  border: 3px solid black;
   position: relative;
 }
 
@@ -288,7 +288,7 @@ button:hover{
   pointer-events: none;
 }
 
-.kit .pics img{
+.kit .pics Img{
   height: 500px;
 }
 
@@ -306,6 +306,64 @@ button:hover{
 
 .card-image .card-img{
   width: 90px;
+}
+
+.kit .kitText{
+  margin-top: 80px;
+  margin-right: 140px;
+}
+
+.kit .kitText h2 a{
+  color: black;
+}
+
+.kit .kitText p span{
+  text-decoration: line-through;
+  color: rgb(250, 112, 135);
+}
+
+.kit .kitText .floatText{
+  float: left;
+  width: 170px;
+}
+
+.kit .kitText .longText{
+  margin-top: 15px;
+  width: 300px;
+}
+
+.kit .kitText .moreInfo{
+  border: none;
+  background-color: white;
+  font-weight: bold;
+  margin-top: 35px;
+}
+
+.kit .kitText .style{
+  margin-top: 30px;
+  font-weight: bold;
+}
+
+.kit .kitText .styletype{
+  margin-top: 2px;
+  padding: 14px 100px 14px 14px;
+}
+
+.kit .kitText .numbers{
+  margin-top: 8px;
+  padding: 12px;
+}
+
+.kit .kitText .stylecart{
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 13px 40px;
+  margin-left: 7px;
+}
+
+.kit .kitText .styleprice{
+  display: inline;
 }
 
 @media only screen and (max-width: 1320px){
