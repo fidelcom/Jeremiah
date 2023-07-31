@@ -364,6 +364,18 @@ button:hover{
 
 .kit .kitText .styleprice{
   display: inline;
+  background-color: black;
+  color: white;
+  padding: 11px 12px 0 12px;
+}
+
+.kit .kitText .stylecurrency{
+  background-color: black;
+  color: white;
+  width: 79px;
+  margin-left: 245px;
+  margin-top: -18px;
+  text-align: center;
 }
 
 @media only screen and (max-width: 1320px){
