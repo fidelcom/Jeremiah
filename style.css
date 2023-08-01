@@ -310,7 +310,7 @@ button:hover{
 
 .kit .kitText{
   margin-top: 80px;
-  margin-right: 140px;
+  margin-right: 40px;
 }
 
 .kit .kitText h2 a{
@@ -372,10 +372,103 @@ button:hover{
 .kit .kitText .stylecurrency{
   background-color: black;
   color: white;
-  width: 79px;
-  margin-left: 245px;
+  width: 80px;
+  margin-left: 244px;
   margin-top: -18px;
   text-align: center;
+}
+
+.kit .kitText .freestyle{
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.kit .kitText .freestyle i{
+  color: blue;
+}
+
+.kit .kitText .styleicons{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  font-size: smaller;
+  margin-right: 20px;
+}
+
+.kit .kitText .styleicons i{
+  color: rgb(252, 97, 146);
+  margin-bottom: 20px;
+  font-size:xx-large;
+}
+
+.kit .kitText .styleicons .delivery{
+  margin-right: 20px;
+}
+
+.kit .kitText .styleicons .money{
+  margin-right: 20px;
+}
+
+.kit .kitText .styleicons .customer{
+  margin-right: 20px;
+}
+
+.kit .kitText .styleicons .secure{
+  margin-right: 20px;
+}
+
+.sponsors{
+  display: flex;
+  justify-content: space-around;
+  background-color: aquamarine;
+  margin-top: 80px;
+  width: 100%;
+  height: 70px;
+  padding: 40px 10px;
+}
+
+.sponsors h1{
+  text-transform: uppercase;
+  font-style: oblique;
+}
+
+.sponsors h2{
+  font-weight: bold;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.sponsors h3{
+  font-style: italic;
+  font-size: larger;
+}
+
+.reviews h2{
+  margin-top: 70px;
+  text-align: center;
+}
+
+.reviews .reviewboxes{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-left: 45px;
+}
+
+.reviews .reviewboxes img{
+  width: 90%;
+  height: 60%;
+}
+
+.reviews .reviewboxes .review1{
+  width: 30%;
+}
+
+.reviews .reviewboxes .review2{
+  width: 30%;
+}
+
+.reviews .reviewboxes .review3{
+  width: 30%;
 }
 
 @media only screen and (max-width: 1320px){
