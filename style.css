@@ -317,7 +317,7 @@ button:hover{
   color: black;
 }
 
-.kit .kitText p span{
+.kit .kitText p .lineThr{
   text-decoration: line-through;
   color: rgb(250, 112, 135);
 }
@@ -330,6 +330,10 @@ button:hover{
 .kit .kitText .longText{
   margin-top: 15px;
   width: 300px;
+}
+
+#moreLongText{
+  display: none;
 }
 
 .kit .kitText .moreInfo{
@@ -449,26 +453,78 @@ button:hover{
 
 .reviews .reviewboxes{
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   margin-top: 50px;
-  margin-left: 45px;
 }
 
 .reviews .reviewboxes img{
-  width: 90%;
+  width: 100%;
   height: 60%;
+}
+
+.reviews .reviewboxes .reviewIcons{
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.reviews .reviewboxes .name{
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.reviews .reviewboxes .heading{
+  margin-top: 15px;
+  margin-left: 20px;
+}
+
+.reviews .reviewboxes p{
+  margin-top: 20px;
+  margin-left: 20px;
 }
 
 .reviews .reviewboxes .review1{
   width: 30%;
+  height: fit-content;
+  box-shadow: inset 0 -3em 3em rgba(255, 253, 253, 0.1), 0 0 0 2px rgb(255, 255, 255), 
+  0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+  margin-right: 30px;
 }
 
 .reviews .reviewboxes .review2{
   width: 30%;
+  height: fit-content;
+  box-shadow: inset 0 -3em 3em rgba(255, 255, 255, 0.1), 0 0 0 2px rgb(255, 255, 255), 
+  0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
 }
 
 .reviews .reviewboxes .review3{
   width: 30%;
+  height: fit-content;
+  box-shadow: inset 0 -3em 3em rgba(255, 255, 255, 0.1), 0 0 0 2px rgb(255, 255, 255), 
+  0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+  margin-left: 30px;
+}
+
+.reviews .reviewboxes button{
+  margin-left: 20px;
+  background-color: white;
+  font-size: large;
+  font-weight: bold;
+  color: black;
+  border: none;
+  text-decoration: underline;
+}
+
+#more{
+  display: none;
+}
+
+#moree{
+  display: none;
+}
+
+#moreee{
+  display: none;
 }
 
 @media only screen and (max-width: 1320px){

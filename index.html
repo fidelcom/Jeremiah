@@ -158,7 +158,7 @@
             </div>
             <div class="kitText">
                 <h2><a href="#">LEVEL UP™ FULL LASH<br>STARTER KIT</a></h2>
-                <div class="floatText"><p><span>₦153,600</span><br>₦72,300.00</p></div>
+                <div class="floatText"><p><span class="lineThr">₦153,600</span><br>₦72,300.00</p></div>
                 <div class="floatText2">
                     <p>
                         |<i class="fa-solid fa-star fa-2xs"></i>
@@ -172,8 +172,22 @@
                 <p class="longText">The Level Up Full Lash Starter Kit has everything you 
                     need from start to finish to level up your lash game. 
                     Includes all products for easy application, damage-free removal, 
-                    and after-care for your DIY At-Home Lash Extensions. </p>
-                <button class="moreInfo">MORE INFO →</button> <br>
+                    and after-care for your DIY At-Home Lash Extensions. <span id="moreLongText">This 
+                    kit allows you to Level Up with 2 sets of pre-designed lash extensions that are 
+                    handcrafted by real lash artists to keep everyone guessing if your lashes are real or not!
+                    Our Noir Lash Bonding Agent is Hypoallergenic and creates a 2-week hold. This unique formula 
+                    took us years to develop just for you! It’s waterproof, dries quickly with no mess, and Holds 
+                    your lashes strong for 2 weeks. Our Lash Bonding Agent does not contain any harsh chemicals 
+                    like cyanoacrylate, formaldehyde, latex, or parabens. Our Feather Control Lash Bonding Sealant
+                    extends the wear of your DIY lash extensions and removes any feeling of tackiness after applying.
+                    The light micro-tip applicator delivers a precise application and blends lashes together.
+                    Our custom Squeeze Me applicator is crucial for an easy application and precise & seamless placement.
+                    Ready to remove? No pulling, tugging, or damaged lashes! Our Purify Lash Removal Serum removes your 
+                    lashes damage-free and leaves them clean and nourished. It’s 100% hypoallergenic, and moisturizes
+                    the delicate skin around the eyes, helping to keep your lashes strong and healthy. It contains 
+                    lash-nourishing ingredients like coconut oil, providing an easy and damage-free removal process.
+                    Get ready to Level Up your lashes, look, and attitude!</span> </p>
+                <button class="moreInfo" onclick="longText()" id="moreInfo">MORE INFO →</button> <br>
                 <p for="style" class="style">CHOOSE YOUR STYLE</p> <br>
                 <select class="styletype">
                     <option value="Petite">PETITE (NATURAL)</option>
@@ -219,51 +233,60 @@
                 <div class="review1">
                     <img src="review 1.webp" alt="Customer Picture">
                     <br>
-                    <i class="fa-solid fa-star fa-2xs"></i>
-                    <i class="fa-solid fa-star fa-2xs"></i>
-                    <i class="fa-solid fa-star fa-2xs"></i>
-                    <i class="fa-solid fa-star fa-2xs"></i>
-                    <i class="fa-solid fa-star fa-2xs"></i>
+                    <div class="reviewIcons">
+                        <i class="fa-solid fa-star fa-2xs"></i>
+                        <i class="fa-solid fa-star fa-2xs"></i>
+                        <i class="fa-solid fa-star fa-2xs"></i>
+                        <i class="fa-solid fa-star fa-2xs"></i>
+                        <i class="fa-solid fa-star fa-2xs"></i>
+                    </div>
                     <p class="name">MINERVA P. <span style="color: gray;">VERIFIED BUYER</span></p>
                     <p class="heading">I USED TO GET PROFESSIONAL EXTENSIONS</p>
                     <p>I use to get professional extensions for two years. 
                       Then I found Urban Doll. I love that I can either keep 
                       them on for ten days or just take them off the end of the workday. 
-                      The lashes are glamourous, have different styles, and are so easy to maintain. 
-                      I put them on for work and take them off after. 
-                      They’re so easy to clean! Christmas gift for all my friends.
+                      The lashes are glamourous,<span id="dots">...</span><span id="more">have different styles, and are so easy to maintain. 
+                        I put them on for work and take them off after. 
+                        They’re so easy to clean! Christmas gift for all my friends.</span>
                     </p>
+                    <button onclick="myFunction()" id="myBtn">Read More</button>
                 </div>
                 <div class="review2">
                     <img src="review 2.webp" alt="Customer Picture">
                     <br>
-                    <i class="fa-solid fa-star fa-2xs"></i>
-                    <i class="fa-solid fa-star fa-2xs"></i>
-                    <i class="fa-solid fa-star fa-2xs"></i>
-                    <i class="fa-solid fa-star fa-2xs"></i>
-                    <i class="fa-solid fa-star fa-2xs"></i>
+                    <div class="reviewIcons">
+                        <i class="fa-solid fa-star fa-2xs"></i>
+                        <i class="fa-solid fa-star fa-2xs"></i>
+                        <i class="fa-solid fa-star fa-2xs"></i>
+                        <i class="fa-solid fa-star fa-2xs"></i>
+                        <i class="fa-solid fa-star fa-2xs"></i>
+                    </div>
                     <p class="name">SHANNON L. <span style="color: gray;">VERIFIED BUYER</span></p>
                     <p class="heading">LASTS LONGER THAN 2 WEEKS!</p>
                     <p>If I could give these ladies more stars I would. 
                        I have had nothing but the BEST customer service and products are AMAZING!!
                        The lashes I use are the Fantasy style. They are so natural looking and I 
-                       get compliments all the time. They even last longer than the 2 weeks; that
-                       may be because of how I take care of them. Will always get my lashes from here!</p>
+                       get compliments <span id="dotss">...</span><span id="moree"> all the time. They even last longer than the 2 weeks; that
+                        may be because of how I take care of them. Will always get my lashes from here!</span></p>
+                        <button onclick="myFunctionn()" id="myBtnn">Read More</button>
                 </div>
                 <div class="review3">
                     <img src="review 3.webp" alt="Customer Picture">
                     <br>
-                    <i class="fa-solid fa-star fa-2xs"></i>
-                    <i class="fa-solid fa-star fa-2xs"></i>
-                    <i class="fa-solid fa-star fa-2xs"></i>
-                    <i class="fa-solid fa-star fa-2xs"></i>
-                    <i class="fa-solid fa-star fa-2xs"></i>
+                    <div class="reviewIcons">
+                        <i class="fa-solid fa-star fa-2xs"></i>
+                        <i class="fa-solid fa-star fa-2xs"></i>
+                        <i class="fa-solid fa-star fa-2xs"></i>
+                        <i class="fa-solid fa-star fa-2xs"></i>
+                        <i class="fa-solid fa-star fa-2xs"></i>
+                    </div>
                     <p class="name">WHITNEY W. <span style="color: gray;">VERIFIED BUYER</span></p>
                     <p class="heading">I WAS SO SICK OF HAVING TO PAY $150...</p>
                     <p>I was so sick of having to pay $150 every 2-3 weeks for lash extensions. 
                        I'd get lash extensions, but they wouldn't last more than a week. 
-                       The Starter Kit comes with everything you need to apply and remove your lashes.
-                       I love that I can mix and match my lashes for a fraction of the price!</p>
+                       The Starter Kit comes with everything you need to apply and remove your <span id="dotsss">...</span><span id="moreee"> lashes.
+                        I love that I can mix and match my lashes for a fraction of the price!</span></p>
+                        <button onclick="read()" id="myBtnnn">Read More</button>
                 </div>
             </div>
         </div>
