@@ -17,6 +17,14 @@ body{
 .slideshow-container{
   background-color: rgb(250, 199, 208);
   width: 100%;
+  display: inline;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.slideshow-container strong{
+  margin-top: 10px;
+  margin-right: 450px;
 }
 
 header{
@@ -525,6 +533,223 @@ button:hover{
 
 #moreee{
   display: none;
+}
+
+.customerFavourites h2{
+  text-align: center;
+  margin-top: 85px;
+}
+
+.customerFavourites .lashBoxes{
+  display: flex;
+  justify-content: space-between;
+}
+
+.customerFavourites .lashBoxes div img{
+  width: 129px;
+  margin-top: 30px;
+}
+
+.customerFavourites .lashBoxes .lash2 img{
+  margin-left: 5px;
+}
+
+.customerFavourites .lashBoxes .lash2:hover{
+  cursor: pointer;
+}
+
+.customerFavourites .lashBoxes .lash2 .lash2img{
+  display: flex;
+}
+
+.customerFavourites .lashBoxes .lash2 h4{
+  margin-left: -60px;
+  margin-top: 5px;
+  height: fit-content;
+  background-color: rgb(248, 67, 179);
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: small;
+}
+
+.customerFavourites .lashBoxes .lash2 p{
+  text-align: center;
+  margin-right: 60px;
+  line-height: 22px;
+}
+
+.customerFavourites .lashBoxes .lash2 p .bed{
+  font-weight: bold;
+}
+
+.customerFavourites .lashBoxes .lash2 p .bed:hover{
+  text-decoration: underline;
+}
+
+.customerFavourites .lashBoxes .lash2 p .lashNo{
+  color: #6d6d6d;
+}
+
+.customerFavourites .lashBoxes .lash2 p .lashPrize{
+  color: rgb(243, 120, 196);
+  font-size:x-large;
+}
+
+.customerFavourites .lashBoxes .lash2 button{
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 2px;
+  margin-left: 5px;
+  margin-top: 20px;
+}
+
+.customerFavourites .lashBoxes .lash img{
+  margin-left: 30px;
+}
+
+.customerFavourites .lashBoxes .lash:hover{
+  cursor: pointer;
+}
+
+.customerFavourites .lashBoxes .lash p{
+  text-align: center;
+  line-height: 22px;
+}
+
+.customerFavourites .lashBoxes .lash p .bed{
+  font-weight: bold;
+}
+
+.customerFavourites .lashBoxes .lash p .bed:hover{
+  text-decoration: underline;
+}
+
+.customerFavourites .lashBoxes .lash p .lashNo{
+  color: #6d6d6d;
+}
+
+.customerFavourites .lashBoxes .lash p .lashPrize{
+  color: rgb(243, 120, 196);
+  font-size:x-large;
+}
+
+.customerFavourites .lashBoxes .lash button{
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 2px;
+  margin-left: 40px;
+  margin-top: 20px;
+  width: 200px;
+}
+
+.Lashes h2{
+  text-align: center;
+  margin-top: 85px;
+}
+
+.Lashes .lashBoxes{
+  display: flex;
+  justify-content: space-between;
+}
+
+.Lashes .lashBoxes div img{
+  width: 250px;
+  margin-top: 30px;
+}
+
+.Lashes .lashBoxes .lash2:hover{
+  cursor: pointer;
+}
+
+.Lashes .lashBoxes .lash2 .lash2img{
+  display: flex;
+}
+
+.Lashes .lashBoxes .lash2 h4{
+  margin-left: -120px;
+  margin-top: 35px;
+  height: fit-content;
+  background-color: rgb(248, 67, 179);
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: small;
+}
+
+.Lashes .lashBoxes .lash2 p{
+  margin-top: 4px;
+  text-align: center;
+  line-height: 22px;
+}
+
+.Lashes .lashBoxes .lash2 p .bed{
+  font-weight: bold;
+}
+
+.Lashes .lashBoxes .lash2 p .bed:hover{
+  text-decoration: underline;
+}
+
+.Lashes .lashBoxes .lash2 p .lashNo{
+  color: #6d6d6d;
+}
+
+.Lashes .lashBoxes .lash2 p .lashPrize{
+  color: rgb(243, 120, 196);
+  font-size:x-large;
+}
+
+.Lashes .lashBoxes .lash2 button{
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 2px;
+  margin-left: 40px;
+  margin-top: 20px;
+  width: 200px;
+}
+
+.Lashes .lashBoxes .lash:hover{
+  cursor: pointer;
+}
+
+.Lashes .lashBoxes .lash p{
+  text-align: center;
+  line-height: 22px;
+}
+
+.Lashes .lashBoxes .lash p .bed{
+  font-weight: bold;
+}
+
+.Lashes .lashBoxes .lash p .bed:hover{
+  text-decoration: underline;
+}
+
+.Lashes .lashBoxes .lash p .lashNo{
+  color: #6d6d6d;
+}
+
+.Lashes .lashBoxes .lash p .lashPrize{
+  color: rgb(243, 120, 196);
+  font-size:x-large;
+}
+
+.Lashes .lashBoxes .lash button{
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 2px;
+  margin-left: 40px;
+  margin-top: 20px;
+  width: 200px;
 }
 
 @media only screen and (max-width: 1320px){
