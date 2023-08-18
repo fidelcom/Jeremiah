@@ -22,8 +22,8 @@ body{
   padding-bottom: 10px;
 }
 
-.slideshow-container strong{
-  margin-top: 10px;
+.slideshow-container marquee strong{
+  margin-top: 50px;
   margin-right: 450px;
 }
 
@@ -543,6 +543,7 @@ button:hover{
 .customerFavourites .lashBoxes{
   display: flex;
   justify-content: space-between;
+  width: 100%;
 }
 
 .customerFavourites .lashBoxes div img{
@@ -551,7 +552,7 @@ button:hover{
 }
 
 .customerFavourites .lashBoxes .lash2 img{
-  margin-left: 5px;
+  margin-left: 30px;
 }
 
 .customerFavourites .lashBoxes .lash2:hover{
@@ -575,7 +576,6 @@ button:hover{
 
 .customerFavourites .lashBoxes .lash2 p{
   text-align: center;
-  margin-right: 60px;
   line-height: 22px;
 }
 
@@ -602,12 +602,8 @@ button:hover{
   padding: 10px;
   border: none;
   border-radius: 2px;
-  margin-left: 5px;
+  margin-left: 45px;
   margin-top: 20px;
-}
-
-.customerFavourites .lashBoxes .lash img{
-  margin-left: 30px;
 }
 
 .customerFavourites .lashBoxes .lash:hover{
@@ -617,6 +613,7 @@ button:hover{
 .customerFavourites .lashBoxes .lash p{
   text-align: center;
   line-height: 22px;
+  margin-top: -5px;
 }
 
 .customerFavourites .lashBoxes .lash p .bed{
@@ -642,9 +639,7 @@ button:hover{
   padding: 10px;
   border: none;
   border-radius: 2px;
-  margin-left: 40px;
   margin-top: 20px;
-  width: 200px;
 }
 
 .Lashes h2{
@@ -710,7 +705,7 @@ button:hover{
   padding: 10px;
   border: none;
   border-radius: 2px;
-  margin-left: 40px;
+  margin-left: 25px;
   margin-top: 20px;
   width: 200px;
 }
@@ -747,9 +742,111 @@ button:hover{
   padding: 10px;
   border: none;
   border-radius: 2px;
-  margin-left: 40px;
+  margin-left: 25px;
   margin-top: 20px;
   width: 200px;
+}
+
+.follow{
+  margin-top: 80px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.follow p{
+  color: #686666;
+}
+
+footer{
+  background-color: black;
+}
+
+footer .footer_container{
+  background-color: black;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  height: 400px;
+}
+
+footer .footer_container .urban_footer{
+  margin-top: 85px;
+  margin-left: 80px;
+}
+
+footer .footer_container .urban_footer h1{
+  color: white;
+}
+
+footer .footer_container .urban_footer h1:hover{
+  cursor:default;
+}
+
+footer .footer_container .urban_footer i{
+  margin-left: 10px;
+}
+
+footer .footer_container .urban_footer i:hover{
+  cursor: pointer;
+}
+
+footer .footer_container .urban_footer_2{
+  margin-top: 80px;
+  line-height: 40px;
+}
+
+footer .footer_container .urban_footer_2 h4{
+  color: white;
+}
+
+footer .footer_container .urban_footer_2 h5{
+  color: white;
+}
+
+footer .footer_container .urban_footer_2 input{
+  margin-top: 15px;
+  padding: 10px;
+  width: 350px;
+  border:1px solid red;
+  background-color: black;
+  color: white;
+}
+
+footer .footer_container .urban_footer_2 input::placeholder {
+  color: white;
+  opacity: 1; 
+}
+
+footer .footer_container .urban_footer_2 button{
+  padding: 10px;
+  background-color: white;
+  border: 1px solid white;
+  font-weight: bold;
+  margin-left: -5px;
+}
+
+footer .footer_container .footer_buttons{
+  margin-top: 80px;
+}
+
+footer .footer_container .footer_buttons .big{
+  background-color: black;
+  color: white;
+  border: none;
+  font-weight:bold;
+  margin-bottom: 20px;
+}
+
+footer .footer_container .footer_buttons button{
+  background-color: black;
+  color: white;
+  border: none;
+  line-height: 30px;
+}
+
+footer p{
+  color: white;
+  text-align: center;
 }
 
 @media only screen and (max-width: 1320px){
