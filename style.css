@@ -11,7 +11,6 @@ body{
   background: #fefefe;
   margin: 0;
   padding: 0;
-  min-width: 1053px;
 }
 
 .slideshow-container{
@@ -113,7 +112,8 @@ header{
 }
 
 .navBar ul li a:hover{
-  border-bottom: 3px solid black;
+  border-bottom: 2px solid black;
+  transition:all .2s ease-out;
 }
 
 .navBar ul li a.active{
@@ -143,7 +143,6 @@ header{
 
 .maincon1 .text{
   color: white;
-  align-items: center;
   padding: 200px 100px 170px ;
   width: 100%;
 }
@@ -258,7 +257,7 @@ button:hover{
 
 .Three img{
   height: 350px;
-  width: 350px;
+  width: 300px;
   border-radius: 30px;
 }
 
@@ -385,7 +384,7 @@ button:hover{
   background-color: black;
   color: white;
   width: 80px;
-  margin-left: 244px;
+  margin-left: 242px;
   margin-top: -18px;
   text-align: center;
 }
@@ -467,7 +466,7 @@ button:hover{
 
 .reviews .reviewboxes img{
   width: 100%;
-  height: 60%;
+  height: 50%;
 }
 
 .reviews .reviewboxes .reviewIcons{
@@ -492,7 +491,7 @@ button:hover{
 
 .reviews .reviewboxes .review1{
   width: 30%;
-  height: fit-content;
+  height: 535px;
   box-shadow: inset 0 -3em 3em rgba(255, 253, 253, 0.1), 0 0 0 2px rgb(255, 255, 255), 
   0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
   margin-right: 30px;
@@ -500,14 +499,14 @@ button:hover{
 
 .reviews .reviewboxes .review2{
   width: 30%;
-  height: fit-content;
+  height: 535px;
   box-shadow: inset 0 -3em 3em rgba(255, 255, 255, 0.1), 0 0 0 2px rgb(255, 255, 255), 
   0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
 }
 
 .reviews .reviewboxes .review3{
   width: 30%;
-  height: fit-content;
+  height: 535px;
   box-shadow: inset 0 -3em 3em rgba(255, 255, 255, 0.1), 0 0 0 2px rgb(255, 255, 255), 
   0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
   margin-left: 30px;
@@ -544,6 +543,7 @@ button:hover{
   display: flex;
   justify-content: space-between;
   width: 100%;
+  margin-top: 20px;
 }
 
 .customerFavourites .lashBoxes div img{
@@ -858,6 +858,159 @@ footer p{
 @media only screen and (max-width: 1100px){
   header{
     padding: 0 30px;
+  }
+}
+
+@media only screen and (max-width: 1094px){
+  body{
+    background-color: black;
+    width: 100%;
+  }
+  main .maincon1{
+    background: url(pic.webp) no-repeat;
+    width: 100%;
+    height: 1000px;
+    margin: 10px 50px 0 40px;
+    position: relative;
+  }
+
+  main .maincon1 .maincon1_box img{
+    display: none;
+  }
+
+  main .maincon1 .maincon1_box .text{
+    position: absolute;
+    bottom: -150px;
+    left: -120px;
+  }
+
+  main .maincon1 .maincon1_box .text .button .buy{
+    border: 2px solid black;
+  }
+
+  main .maincon1 .maincon1_box .text .button .learn{
+    border: 2px solid black;
+  }
+
+  main .WWO{
+    background-color: white;
+    height: 580px;
+    margin-top: -80px;
+  }
+
+  main .WWO h2{
+    padding-top: 80px;
+  }
+
+  main .Three{
+    margin-top: -1px;
+  }
+
+  main .Three .boxes .box img{
+    width: 200px;
+  }
+
+  main .kit{
+    background-color: white;
+    margin-top: -1px;
+    height:750px;
+  }
+
+  main .sponsors{
+    margin-top: -1px;
+  }
+
+  main .reviews{
+    background-color: white;
+    margin-top: -70px;
+    height: 700px;
+  }
+
+  main .reviews .reviewboxes{
+    margin-top: 50px;
+  }
+
+  main .reviews .reviewboxes .review1{
+    height: 562px;
+  }
+
+  main .reviews .reviewboxes .review2{
+    height: 562px;
+  }
+
+  main .reviews .reviewboxes .review3{
+    height: 562px;
+  }
+
+  main .reviews h2{
+    padding-top: 70px;
+  }
+
+  main .customerFavourites{
+    background-color: white;
+  }
+
+  main .customerFavourites h2{
+    margin-top: -1px;
+    padding-top: 60px;
+  }
+
+  main .customerFavourites .lashBoxes .lash2{
+    margin-top: 20px;
+  }
+
+  main .Lashes{
+    background-color: white;
+  }
+
+  main .Lashes h2{
+    margin-top: -1px;
+    padding-top: 70px;
+  }
+
+  main .follow{
+    background-color: white;
+    margin-top: -1px;
+    padding-top: 90px;
+  }
+
+  footer .footer_container{
+    margin-top: -1px;
+  }
+}
+
+@media only screen and (max-width: 1024px){
+  main .reviews .reviewboxes .review1{
+    height:560px;
+  }
+
+  main .reviews .reviewboxes .review2{
+    height:560px;
+  }
+
+  main .reviews .reviewboxes .review3{
+    height:560px;
+  }
+
+  main .customerFavourites .lashBoxes{
+    display: block;
+  }
+
+  main .customerFavourites .lashBoxes .lash2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  main .customerFavourites .lashBoxes .lash2 button{
+    margin-left: -5px;
+  }
+
+  main .customerFavourites .lashBoxes .lash{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
   }
 }
 

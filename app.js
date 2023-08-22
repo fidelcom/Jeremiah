@@ -1,8 +1,8 @@
-/*hamburger = document.querySelector(".hamburger");
+hamburger = document.querySelector(".hamburger");
 hamburger.onclick =  function(){
   navBar = document.querySelector(".navBar");
   navBar.classList.toggle("active");
-}*/
+}
 
 var magnifying_area = document.getElementById("magnifying_area");
 var magnifying_img = document.getElementById("magnifying_img");
