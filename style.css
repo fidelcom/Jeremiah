@@ -538,9 +538,17 @@ button:hover{
 
 .customerFavourites .lashBoxes{
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   width: 100%;
   margin-top: 20px;
+}
+
+.customerFavourites .lashBoxes .four{
+  display: flex;
+}
+
+.customerFavourites .lashBoxes .two{
+  display: flex;
 }
 
 .customerFavourites .lashBoxes div img{
@@ -549,7 +557,7 @@ button:hover{
 }
 
 .customerFavourites .lashBoxes .lash2 img{
-  margin-left: 30px;
+  margin-left: 20px;
 }
 
 .customerFavourites .lashBoxes .lash2:hover{
@@ -599,7 +607,7 @@ button:hover{
   padding: 10px;
   border: none;
   border-radius: 2px;
-  margin-left: 45px;
+  margin-left: 1px;
   margin-top: 20px;
 }
 
@@ -846,31 +854,18 @@ footer p{
   text-align: center;
 }
 
-@media only screen and (max-width: 1320px){
-  header{
-    padding: 0 50px;
+@media screen and (max-device-width: 1024px){
+  main .black{
+    background-color: #000;
   }
-}
-
-@media only screen and (max-width: 1100px){
-  header{
-    padding: 0 30px;
-  }
-}
-
-@media only screen and (max-width: 1024px){
-  body{
-    background-color: black;
-    width: 100%;
-  }
-  
   main .maincon1{
     background: url(pic.webp) no-repeat;
-    background-size: 1000px 900px;
+    background-size: 1000px 1100px;
     width: 90%;
     height: 1000px;
     margin: 10px 50px 0 50px;
     position: relative;
+    border-top: 15px solid black;
   }
 
   main .maincon1 .maincon1_box img{
@@ -891,32 +886,16 @@ footer p{
     border: 2px solid black;
   }
 
-  main .WWO{
-    background-color: white;
-    height: 580px;
-    margin-top: -80px;
-  }
-
-  main .WWO h2{
-    padding-top: 80px;
-  }
-
-  main .Three{
-    margin-top: -1px;
-  }
-
   main .Three .boxes .box img{
     width: 200px;
   }
 
   main .kit{
-    background-color: white;
-    margin-top: -1px;
-    height:750px;
+    display: block;
   }
 
-  main .sponsors{
-    margin-top: -1px;
+  main .kit .kitText{
+    margin-left: 100px;
   }
 
   main .reviews .reviewboxes .review1{
@@ -933,6 +912,23 @@ footer p{
 
   main .customerFavourites .lashBoxes{
     display: block;
+  }
+
+  main .customerFavourites .lashBoxes .four{
+    display: flex;
+  }
+
+  main .customerFavourites .lashBoxes .two{
+    display: flex;
+    justify-content: space-around;
+  }
+
+  main .customerFavourites .lashBoxes .lash2 img{
+    margin-left: 1px;
+  }
+
+  main .customerFavourites .lashBoxes .lash2 p{
+    margin-left: -15px;
   }
 
   main .customerFavourites .lashBoxes .lash2{
@@ -952,8 +948,11 @@ footer p{
     margin-top: 30px;
   }
 
+  main .customerFavourites .lashBoxes .lash p{
+    margin-left: -20px;
+  }
+
   main .reviews{
-    background-color: white;
     margin-top: -70px;
     height: 700px;
   }
@@ -978,40 +977,13 @@ footer p{
     padding-top: 70px;
   }
 
-  main .customerFavourites{
-    background-color: white;
-  }
-
-  main .customerFavourites h2{
-    margin-top: -1px;
-    padding-top: 60px;
-  }
-
   main .customerFavourites .lashBoxes .lash2{
     margin-top: 20px;
   }
-
-  main .Lashes{
-    background-color: white;
-  }
-
-  main .Lashes h2{
-    margin-top: -1px;
-    padding-top: 70px;
-  }
-
-  main .follow{
-    background-color: white;
-    margin-top: -1px;
-    padding-top: 90px;
-  }
-
-  footer .footer_container{
-    margin-top: -1px;
-  }
+  
 }
 
-@media only screen and (max-width: 1020px){
+@media screen and (max-device-width: 1020px){
   main .WWO {
     width: 100%;
     height: 100%;
@@ -1028,7 +1000,7 @@ footer p{
   }
 }
 
-@media only screen and (max-width: 900px){
+@media screen and (max-device-width: 900px){
   header{
     flex-direction: row;
     
@@ -1051,7 +1023,7 @@ footer p{
   .navBar{
     margin-top: 50px;
     height: 0;
-    position: absolute;
+    position:absolute;
     top: 80px;
     left: 0;
     right: 0;
@@ -1078,9 +1050,81 @@ footer p{
     font-size: 29px;
     margin-left: 20px;
   }
+
+  .maincon1{
+    width: 5%;
+  }
+
+  main .maincon1{
+    background-size: 900px 1000px;
+  }
+
+  main .Lashes .lashBoxes{
+    display: block;
+  }
+
+  main .Lashes .lashBoxes .lash2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  main .Lashes .lashBoxes .lash{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
+ /*
+ 480
+ 380*/
 
+@media screen and (max-device-width: 768px){
+  main .maincon1{
+    background-size: 700px 800px;
+  }
 
-@media only screen and (max-width: 768px){
+  main .WWO .boxes .box{
+    margin-left: 250px;
+  }
+
+  main .reviews .reviewboxes .review1{
+    height: 600px;
+  }
   
+  main .reviews .reviewboxes .review2{
+    height: 600px;
+  }
+  
+  main .reviews .reviewboxes .review3{
+    height: 600px;
+  }
+
+  main .customerFavourites .lashBoxes .four{
+    display: block;
+  }
+
+  main .customerFavourites .lashBoxes .two{
+    display: block;
+  }
+
+  main .customerFavourites .lashBoxes .lash2{
+    margin-left: -50px;
+  }
+
+  main .customerFavourites .lashBoxes .lash{
+    margin-left: -50px;
+  }
+
+  main .customerFavourites .lashBoxes .lash2 p{
+    margin-left: 0;
+  }
+
+  main .Lashes .lashBoxes .lash2{
+    margin-left: -50px;
+  }
+
+  main .Lashes .lashBoxes .lash{
+    margin-left: -50px;
+  }
 }
