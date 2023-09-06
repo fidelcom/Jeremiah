@@ -1005,6 +1005,13 @@ footer p{
     flex-direction: row;
     
   }
+
+  .navBar{
+    position: fixed;
+    top: 0;
+    left: 30px;
+  }
+
   .hamburger{
     display: block;
     cursor: pointer;
@@ -1023,10 +1030,9 @@ footer p{
   .navBar{
     margin-top: 50px;
     height: 0;
-    position:absolute;
-    top: 80px;
-    left: 0;
-    right: 0;
+    position:fixed;
+    top: 0;
+    left: 30px;
     width: 100vw;
     background: whitesmoke;
     transition: 1s;
@@ -1055,8 +1061,16 @@ footer p{
     width: 5%;
   }
 
+  main .maincon1 .maincon1_box .text{
+    position: absolute;
+    bottom: -200px;
+    left: -80px;
+  }
+
   main .maincon1{
     background-size: 900px 1000px;
+    position: static;
+    margin-left: 40px;
   }
 
   main .Lashes .lashBoxes{
@@ -1075,13 +1089,33 @@ footer p{
     justify-content: center;
   }
 }
- /*
- 480
- 380*/
 
 @media screen and (max-device-width: 768px){
+  .navBar{
+    position: fixed;
+    top: 0;
+    left: 30px;
+  }
+
+  .logo a h2{
+    font-size:larger;
+  }
+
+  .icons{
+    margin-right: 14px;
+    font-size: medium;
+  }
+
   main .maincon1{
     background-size: 700px 800px;
+    position: static;
+    margin-left: 40px;
+  }
+
+  main .maincon1 .maincon1_box .text{
+    position: absolute;
+    bottom: -50px;
+    left: -80px;
   }
 
   main .WWO .boxes .box{
@@ -1126,5 +1160,196 @@ footer p{
 
   main .Lashes .lashBoxes .lash{
     margin-left: -50px;
+  } 
+}
+
+@media screen and (max-device-width: 480px){
+  main .maincon1{
+    background-size: 500px 600px;
+    margin-left: 23px;
+  }
+
+  main .maincon1 .maincon1_box .text{
+    bottom: -670px;
+    left: -80px;
+  }
+
+  main .WWO .boxes .box{
+    height: fit-content;
+    width: 300px;
+    margin-left: 85px;
+  }
+
+  .Three .boxes{
+    display: block;
+  }
+
+  main .Three .boxes .box img{
+    margin-left: 100px;
+  }
+
+  main .kit{
+    display: none;
+  }
+
+  .sponsors{
+    height: fit-content;
+  }
+
+  main .reviews{
+    height: fit-content;
+  }
+
+  .reviews .reviewboxes{
+    display: block;
+  }
+
+  main .reviews .reviewboxes .review1{
+    height: fit-content;
+    width: 300px;
+    margin-left: 85px;
+  }
+
+  main .reviews .reviewboxes .review2{
+    height: fit-content;
+    width: 300px;
+    margin-top: 50px;
+    margin-left: 85px;
+  }
+  
+  main .reviews .reviewboxes .review3{
+    height: fit-content;
+    width: 300px;
+    margin-top: 50px;
+    margin-left: 85px;
+  }
+
+  footer .footer_container{
+    display: block;
+    height: fit-content;
+  }
+
+  footer .footer_container .urban_footer{
+    margin-left: 0;
+    text-align: center;
+  }
+
+  footer .footer_container .urban_footer_2{
+    text-align: center;
+    margin-top: 40px;
+    line-height: 15px;
+  }
+
+  footer .footer_container .last{
+    display: flex;
+    justify-content: space-around;
+  }
+
+  footer .footer_container .last .footer_buttons{
+    margin-top: 40px;
+  }
+
+  footer p{
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-device-width: 380px){
+  .navBar{
+    width: 350px;
+  }
+
+  .navBarIcons{
+    display: block;
+    text-align: center;
+  }
+  .search{
+    margin: 50px 0 40px 70px;
+  }
+
+  .logo{
+    margin-left: 160px;
+  }
+
+  .logo a h2{
+    font-size:xx-large;
+    margin: -50px 0 0 -170px;
+  }
+
+  .icons{
+    margin: -50px 0 0 0;
+    font-size: small;
+  }
+
+  .navBar.active ul{
+    text-align: center;
+    margin-left: 80px;
+  }
+
+  main .black{
+    height: 600px;
+  }
+
+  main .maincon1{
+    background-size: 300px 400px;
+    margin-left: 40px;
+    border-top: 20px solid black;
+    width: 80%;
+  }
+
+  main .maincon1 .maincon1_box .text{
+    bottom: -270px;
+  }
+
+  .maincon1 .text .try{
+    font-size: 20px;
+  }
+
+  .maincon1 .text .diy{
+    font-size: 30px;
+  }
+
+  .maincon1 .text .ext{
+    font-size: 40px;
+  }
+
+  .maincon1 .text p{
+    font-size: 15px;
+  }
+
+  main .maincon1 .maincon1_box .text .button .buy{
+    padding: 10px 20px;
+  }
+
+  main .maincon1 .maincon1_box .text .button .learn{
+    padding: 10px 20px;
+  }
+
+  main .WWO .boxes .box{
+    margin-left: 40px;
+  }
+
+  main .Three .boxes .box img{
+    margin-left: 50px;
+  }
+
+  main .reviews .reviewboxes .review1{
+    margin-left: 40px;
+  }
+
+  main .reviews .reviewboxes .review2{
+    margin-left: 40px;
+  }
+
+  main .reviews .reviewboxes .review3{
+    margin-left: 40px;
+  }
+
+  .Lashes .lashBoxes .lash2 p{
+    margin-right: 20px;
+  }
+  
+  .Lashes .lashBoxes .lash p{
+    margin-left: -70px;
   }
 }
