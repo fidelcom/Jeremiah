@@ -830,8 +830,10 @@ footer .footer_container .urban_footer_2 button{
   margin-left: -5px;
 }
 
-footer .footer_container .footer_buttons{
+footer .footer_container .last{
   margin-top: 80px;
+  display: flex;
+  justify-content: space-around;
 }
 
 footer .footer_container .footer_buttons .big{
@@ -1123,15 +1125,19 @@ footer p{
   }
 
   main .reviews .reviewboxes .review1{
-    height: 600px;
+    height: 650px;
   }
   
   main .reviews .reviewboxes .review2{
-    height: 600px;
+    height: 650px;
   }
   
   main .reviews .reviewboxes .review3{
-    height: 600px;
+    height: 650px;
+  }
+
+  main .customerFavourites h2{
+    margin-top: 150px;
   }
 
   main .customerFavourites .lashBoxes .four{
@@ -1331,6 +1337,10 @@ footer p{
 
   main .Three .boxes .box img{
     margin-left: 50px;
+  }
+
+  main .sponsors h6{
+    display: none;
   }
 
   main .reviews .reviewboxes .review1{
