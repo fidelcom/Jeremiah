@@ -1,0 +1,1365 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Google Sans Regular";
+  box-sizing:border-box;
+}
+
+body{
+  background: #fefefe;
+  margin: 0;
+  padding: 0;
+}
+
+.slideshow-container{
+  background-color: rgb(250, 199, 208);
+  width: 100%;
+  display: inline;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.slideshow-container marquee strong{
+  margin-top: 50px;
+  margin-right: 450px;
+}
+
+header{
+  width: 100%;
+  background: white;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo{
+    text-align: center;
+    color: black;
+    font-size: 45px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 20px;
+    margin-right: 55px;
+}
+
+.logo a{
+  color: #000;
+}
+
+.hamburger{
+  display: none;
+}
+
+.navBarIcons{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 0;
+}
+
+.search{
+  background: #eaeaea;
+  margin: 50px 0;
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  border-radius: 20px;
+}
+
+.navBar .navBarIcons .search input{
+  height: 10px;
+  background: transparent;
+  border: 0;
+  outline: 0;
+  padding: 18px 10px;
+}
+
+.search i{
+  margin-left: 15px;
+  color: #999;
+}
+
+.icons{
+  margin-right: 0;
+}
+
+.icons i{
+  color: black;
+  margin-right: 10px;
+  margin-top: 55px;
+  height: 0px;
+}
+
+.navBar ul{
+  display: flex;
+  margin-top:20px;
+  width: 100%;
+  margin-left: 10px;
+}
+
+.navBar ul li a{
+  display: block;
+  color: black;
+  font-size: 20px;
+  font-family: sans-serif;
+  padding-top: 5px;
+  padding-right: 24px;
+  padding-bottom: 10px;
+}
+
+.navBar ul li a:hover{
+  border-bottom: 2px solid black;
+  transition:all .2s ease-out;
+}
+
+.navBar ul li a.active{
+  color: gray;
+}
+
+.navBar ul li a.active:hover{
+  border-bottom: 3px solid gray;
+}
+
+.maincon1{
+  width: 100%;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+
+.maincon1 img{
+  height: 95%;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.maincon1 .text{
+  color: white;
+  padding: 200px 100px 170px ;
+  width: 100%;
+}
+
+.maincon1 .text .try{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.maincon1 .text .diy{
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.maincon1 .text .ext{
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.text{
+  padding-left: 80px ;
+}
+
+.button{
+  display: inline-block;
+  width: 100%;
+}
+
+.buy{
+  padding: 15px 45px;
+  background-color: white;
+  border: white;
+  margin-top: 20px;
+  margin-right: 20px;
+  display: inline;
+}
+
+button:hover{
+  cursor: pointer;
+}
+
+.learn{
+  padding: 15px 45px;
+  background-color: white;
+  border: white;
+  display: inline;
+}
+
+.blueband{
+  width: 100%;
+  height: 65px;
+  background-color: rgb(90, 90, 194);
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  padding-top: 15px;
+}
+
+
+.WWO{
+  width: fit-content;
+  height: 500px;
+}
+
+.WWO h2{
+  margin-top: 80px;
+  text-align: center;
+}
+
+.WWO .boxes{
+  display: flex;
+  flex-direction: row;
+}
+
+.WWO .box{
+  border: 2px;
+  margin: 60px 30px 0 30px;
+  width: 100%;
+  height: 300px; 
+  padding: 80px 30px 30px 30px;
+  text-align: center;
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255), 
+  0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+
+.box i{
+  color: rgb(255, 160, 176);
+}
+  
+  .box h3{
+  margin-top: 25px;
+}
+
+.Three{
+  background-color: rgb(255, 241, 244);
+}
+
+.Three h2{
+  text-align: center;
+  padding-top: 70px;
+}
+
+.Three .boxes{
+  display: flex;
+  justify-content: center;
+  margin-right: 50px;
+}
+
+.Three .boxes .box{
+  margin-left: 35px;
+}
+
+.Three img{
+  height: 350px;
+  width: 300px;
+  border-radius: 30px;
+}
+
+.Three h3{
+  text-align: center;
+}
+
+.Three p{
+  text-align: center;
+  margin-top: 30px;
+}
+
+.kit{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#magnifying_area{
+  width: 500px;
+  height: 500px;
+  margin-top: 80px;
+  margin-left: 140px;
+  overflow: hidden;
+  position: relative;
+}
+
+#magnifying_img{
+  max-width: 100%;
+  min-width: 100%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+}
+
+.kit .pics Img{
+  height: 500px;
+}
+
+.kit .pics .card-img{
+  height: 87px;
+}
+
+.card-image{
+  position: relative;
+  height: 90px;
+  width: 150px;
+  margin-top: 30px;
+  margin-left: 140px;
+}
+
+.card-image .card-img{
+  width: 90px;
+}
+
+.kit .kitText{
+  margin-top: 80px;
+  margin-right: 40px;
+}
+
+.kit .kitText h2 a{
+  color: black;
+}
+
+.kit .kitText p .lineThr{
+  text-decoration: line-through;
+  color: rgb(250, 112, 135);
+}
+
+.kit .kitText .floatText{
+  float: left;
+  width: 170px;
+}
+
+.kit .kitText .longText{
+  margin-top: 15px;
+  width: 300px;
+}
+
+#moreLongText{
+  display: none;
+}
+
+.kit .kitText .moreInfo{
+  border: none;
+  background-color: white;
+  font-weight: bold;
+  margin-top: 35px;
+}
+
+.kit .kitText .style{
+  margin-top: 30px;
+  font-weight: bold;
+}
+
+.kit .kitText .styletype{
+  margin-top: 2px;
+  padding: 14px 100px 14px 14px;
+}
+
+.kit .kitText .numbers{
+  margin-top: 8px;
+  padding: 12px;
+}
+
+.kit .kitText .stylecart{
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 13px 40px;
+  margin-left: 7px;
+}
+
+.kit .kitText .styleprice{
+  display: inline;
+  background-color: black;
+  color: white;
+  padding: 11px 12px 0 12px;
+}
+
+.kit .kitText .stylecurrency{
+  background-color: black;
+  color: white;
+  width: 80px;
+  margin-left: 242px;
+  margin-top: -18px;
+  text-align: center;
+}
+
+.kit .kitText .freestyle{
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.kit .kitText .freestyle i{
+  color: blue;
+}
+
+.kit .kitText .styleicons{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  font-size: smaller;
+  margin-right: 20px;
+}
+
+.kit .kitText .styleicons i{
+  color: rgb(252, 97, 146);
+  margin-bottom: 20px;
+  font-size:xx-large;
+}
+
+.kit .kitText .styleicons .delivery{
+  margin-right: 20px;
+}
+
+.kit .kitText .styleicons .money{
+  margin-right: 20px;
+}
+
+.kit .kitText .styleicons .customer{
+  margin-right: 20px;
+}
+
+.kit .kitText .styleicons .secure{
+  margin-right: 20px;
+}
+
+.sponsors{
+  display: flex;
+  justify-content: space-around;
+  background-color: aquamarine;
+  margin-top: 80px;
+  width: 100%;
+  height: 70px;
+  padding: 40px 10px;
+}
+
+.sponsors h1{
+  text-transform: uppercase;
+  font-style: oblique;
+}
+
+.sponsors h2{
+  font-weight: bold;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.sponsors h3{
+  font-style: italic;
+  font-size: larger;
+}
+
+.reviews h2{
+  margin-top: 70px;
+  text-align: center;
+}
+
+.reviews .reviewboxes{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.reviews .reviewboxes img{
+  width: 100%;
+  height: 50%;
+}
+
+.reviews .reviewboxes .reviewIcons{
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.reviews .reviewboxes .name{
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.reviews .reviewboxes .heading{
+  margin-top: 15px;
+  margin-left: 20px;
+}
+
+.reviews .reviewboxes p{
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.reviews .reviewboxes .review1{
+  width: 30%;
+  height: 535px;
+  box-shadow: inset 0 -3em 3em rgba(255, 253, 253, 0.1), 0 0 0 2px rgb(255, 255, 255), 
+  0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+  margin-right: 30px;
+}
+
+.reviews .reviewboxes .review2{
+  width: 30%;
+  height: 535px;
+  box-shadow: inset 0 -3em 3em rgba(255, 255, 255, 0.1), 0 0 0 2px rgb(255, 255, 255), 
+  0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+
+.reviews .reviewboxes .review3{
+  width: 30%;
+  height: 535px;
+  box-shadow: inset 0 -3em 3em rgba(255, 255, 255, 0.1), 0 0 0 2px rgb(255, 255, 255), 
+  0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+  margin-left: 30px;
+}
+
+.reviews .reviewboxes button{
+  margin-left: 20px;
+  background-color: white;
+  font-size: large;
+  font-weight: bold;
+  color: black;
+  border: none;
+  text-decoration: underline;
+}
+
+#more{
+  display: none;
+}
+
+#moree{
+  display: none;
+}
+
+#moreee{
+  display: none;
+}
+
+.customerFavourites h2{
+  text-align: center;
+  margin-top: 85px;
+}
+
+.customerFavourites .lashBoxes{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.customerFavourites .lashBoxes .four{
+  display: flex;
+}
+
+.customerFavourites .lashBoxes .two{
+  display: flex;
+}
+
+.customerFavourites .lashBoxes div img{
+  width: 129px;
+  margin-top: 30px;
+}
+
+.customerFavourites .lashBoxes .lash2 img{
+  margin-left: 20px;
+}
+
+.customerFavourites .lashBoxes .lash2:hover{
+  cursor: pointer;
+}
+
+.customerFavourites .lashBoxes .lash2 .lash2img{
+  display: flex;
+}
+
+.customerFavourites .lashBoxes .lash2 h4{
+  margin-left: -60px;
+  margin-top: 5px;
+  height: fit-content;
+  background-color: rgb(248, 67, 179);
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: small;
+}
+
+.customerFavourites .lashBoxes .lash2 p{
+  text-align: center;
+  line-height: 22px;
+}
+
+.customerFavourites .lashBoxes .lash2 p .bed{
+  font-weight: bold;
+}
+
+.customerFavourites .lashBoxes .lash2 p .bed:hover{
+  text-decoration: underline;
+}
+
+.customerFavourites .lashBoxes .lash2 p .lashNo{
+  color: #6d6d6d;
+}
+
+.customerFavourites .lashBoxes .lash2 p .lashPrize{
+  color: rgb(243, 120, 196);
+  font-size:x-large;
+}
+
+.customerFavourites .lashBoxes .lash2 button{
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 2px;
+  margin-left: 1px;
+  margin-top: 20px;
+}
+
+.customerFavourites .lashBoxes .lash:hover{
+  cursor: pointer;
+}
+
+.customerFavourites .lashBoxes .lash p{
+  text-align: center;
+  line-height: 22px;
+  margin-top: -5px;
+}
+
+.customerFavourites .lashBoxes .lash p .bed{
+  font-weight: bold;
+}
+
+.customerFavourites .lashBoxes .lash p .bed:hover{
+  text-decoration: underline;
+}
+
+.customerFavourites .lashBoxes .lash p .lashNo{
+  color: #6d6d6d;
+}
+
+.customerFavourites .lashBoxes .lash p .lashPrize{
+  color: rgb(243, 120, 196);
+  font-size:x-large;
+}
+
+.customerFavourites .lashBoxes .lash button{
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 2px;
+  margin-top: 20px;
+}
+
+.Lashes h2{
+  text-align: center;
+  margin-top: 85px;
+}
+
+.Lashes .lashBoxes{
+  display: flex;
+  justify-content: space-between;
+}
+
+.Lashes .lashBoxes div img{
+  width: 250px;
+  margin-top: 30px;
+}
+
+.Lashes .lashBoxes .lash2:hover{
+  cursor: pointer;
+}
+
+.Lashes .lashBoxes .lash2 .lash2img{
+  display: flex;
+}
+
+.Lashes .lashBoxes .lash2 h4{
+  margin-left: -120px;
+  margin-top: 35px;
+  height: fit-content;
+  background-color: rgb(248, 67, 179);
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: small;
+}
+
+.Lashes .lashBoxes .lash2 p{
+  margin-top: 4px;
+  text-align: center;
+  line-height: 22px;
+}
+
+.Lashes .lashBoxes .lash2 p .bed{
+  font-weight: bold;
+}
+
+.Lashes .lashBoxes .lash2 p .bed:hover{
+  text-decoration: underline;
+}
+
+.Lashes .lashBoxes .lash2 p .lashNo{
+  color: #6d6d6d;
+}
+
+.Lashes .lashBoxes .lash2 p .lashPrize{
+  color: rgb(243, 120, 196);
+  font-size:x-large;
+}
+
+.Lashes .lashBoxes .lash2 button{
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 2px;
+  margin-left: 25px;
+  margin-top: 20px;
+  width: 200px;
+}
+
+.Lashes .lashBoxes .lash:hover{
+  cursor: pointer;
+}
+
+.Lashes .lashBoxes .lash p{
+  text-align: center;
+  line-height: 22px;
+}
+
+.Lashes .lashBoxes .lash p .bed{
+  font-weight: bold;
+}
+
+.Lashes .lashBoxes .lash p .bed:hover{
+  text-decoration: underline;
+}
+
+.Lashes .lashBoxes .lash p .lashNo{
+  color: #6d6d6d;
+}
+
+.Lashes .lashBoxes .lash p .lashPrize{
+  color: rgb(243, 120, 196);
+  font-size:x-large;
+}
+
+.Lashes .lashBoxes .lash button{
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 2px;
+  margin-left: 25px;
+  margin-top: 20px;
+  width: 200px;
+}
+
+.follow{
+  margin-top: 80px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.follow p{
+  color: #686666;
+}
+
+footer{
+  background-color: black;
+}
+
+footer .footer_container{
+  background-color: black;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  height: 400px;
+}
+
+footer .footer_container .urban_footer{
+  margin-top: 85px;
+  margin-left: 80px;
+}
+
+footer .footer_container .urban_footer h1{
+  color: white;
+}
+
+footer .footer_container .urban_footer h1:hover{
+  cursor:default;
+}
+
+footer .footer_container .urban_footer i{
+  margin-left: 10px;
+}
+
+footer .footer_container .urban_footer i:hover{
+  cursor: pointer;
+}
+
+footer .footer_container .urban_footer_2{
+  margin-top: 80px;
+  line-height: 40px;
+}
+
+footer .footer_container .urban_footer_2 h4{
+  color: white;
+}
+
+footer .footer_container .urban_footer_2 h5{
+  color: white;
+}
+
+footer .footer_container .urban_footer_2 input{
+  margin-top: 15px;
+  padding: 10px;
+  width: 350px;
+  border:1px solid red;
+  background-color: black;
+  color: white;
+}
+
+footer .footer_container .urban_footer_2 input::placeholder {
+  color: white;
+  opacity: 1; 
+}
+
+footer .footer_container .urban_footer_2 button{
+  padding: 10px;
+  background-color: white;
+  border: 1px solid white;
+  font-weight: bold;
+  margin-left: -5px;
+}
+
+footer .footer_container .last{
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-around;
+}
+
+footer .footer_container .footer_buttons .big{
+  background-color: black;
+  color: white;
+  border: none;
+  font-weight:bold;
+  margin-bottom: 20px;
+}
+
+footer .footer_container .footer_buttons button{
+  background-color: black;
+  color: white;
+  border: none;
+  line-height: 30px;
+}
+
+footer p{
+  color: white;
+  text-align: center;
+}
+
+@media screen and (max-device-width: 1024px){
+  main .black{
+    background-color: #000;
+  }
+  main .maincon1{
+    background: url(pic.webp) no-repeat;
+    background-size: 1000px 1100px;
+    width: 90%;
+    height: 1000px;
+    margin: 10px 50px 0 50px;
+    position: relative;
+    border-top: 15px solid black;
+  }
+
+  main .maincon1 .maincon1_box img{
+    display: none;
+  }
+
+  main .maincon1 .maincon1_box .text{
+    position: absolute;
+    bottom: -150px;
+    left: -120px;
+  }
+
+  main .maincon1 .maincon1_box .text .button .buy{
+    border: 2px solid black;
+  }
+
+  main .maincon1 .maincon1_box .text .button .learn{
+    border: 2px solid black;
+  }
+
+  main .Three .boxes .box img{
+    width: 200px;
+  }
+
+  main .kit{
+    display: block;
+  }
+
+  main .kit .kitText{
+    margin-left: 100px;
+  }
+
+  main .reviews .reviewboxes .review1{
+    height:560px;
+  }
+
+  main .reviews .reviewboxes .review2{
+    height:560px;
+  }
+
+  main .reviews .reviewboxes .review3{
+    height:560px;
+  }
+
+  main .customerFavourites .lashBoxes{
+    display: block;
+  }
+
+  main .customerFavourites .lashBoxes .four{
+    display: flex;
+  }
+
+  main .customerFavourites .lashBoxes .two{
+    display: flex;
+    justify-content: space-around;
+  }
+
+  main .customerFavourites .lashBoxes .lash2 img{
+    margin-left: 1px;
+  }
+
+  main .customerFavourites .lashBoxes .lash2 p{
+    margin-left: -15px;
+  }
+
+  main .customerFavourites .lashBoxes .lash2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  main .customerFavourites .lashBoxes .lash2 button{
+    margin-left: -5px;
+  }
+
+  main .customerFavourites .lashBoxes .lash{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+  }
+
+  main .customerFavourites .lashBoxes .lash p{
+    margin-left: -20px;
+  }
+
+  main .reviews{
+    margin-top: -70px;
+    height: 700px;
+  }
+
+  main .reviews .reviewboxes{
+    margin-top: 50px;
+  }
+
+  main .reviews .reviewboxes .review1{
+    height: 562px;
+  }
+
+  main .reviews .reviewboxes .review2{
+    height: 562px;
+  }
+
+  main .reviews .reviewboxes .review3{
+    height: 562px;
+  }
+
+  main .reviews h2{
+    padding-top: 70px;
+  }
+
+  main .customerFavourites .lashBoxes .lash2{
+    margin-top: 20px;
+  }
+  
+}
+
+@media screen and (max-device-width: 1020px){
+  main .WWO {
+    width: 100%;
+    height: 100%;
+  }
+
+  main .WWO .boxes{
+    display: block;
+    padding-bottom: 70px;
+  }
+
+  main .WWO .boxes .box{
+    width: 35%;
+    margin-left: 330px;
+  }
+}
+
+@media screen and (max-device-width: 900px){
+  header{
+    flex-direction: row;
+    
+  }
+
+  .navBar{
+    position: fixed;
+    top: 0;
+    left: 30px;
+  }
+
+  .hamburger{
+    display: block;
+    cursor: pointer;
+    margin-top: 70px;
+  }
+  .hamburger .line{
+    width: 20px;
+    height:3px;
+    background: black;
+    margin: 4px 0;
+    border-radius: 10px;
+  }
+  .hamburger:hover{
+    background: rgb(241, 239, 239);
+  }
+  .navBar{
+    margin-top: 50px;
+    height: 0;
+    position:fixed;
+    top: 0;
+    left: 30px;
+    width: 100vw;
+    background: whitesmoke;
+    transition: 1s;
+    overflow: hidden;
+  }
+  .navBar.active{
+    height: fit-content;
+  }
+  .navBar ul{
+    display: block;
+    width: fit-content;
+    margin: 30px auto 0 5px;
+    text-align: left;
+    transition: 0.5s;
+    opacity: 0;
+  }
+  .navBar.active ul{
+    opacity: 1;
+  }
+  .logo{
+    font-size: 29px;
+    margin-left: 20px;
+  }
+
+  .maincon1{
+    width: 5%;
+  }
+
+  main .maincon1 .maincon1_box .text{
+    position: absolute;
+    bottom: -200px;
+    left: -80px;
+  }
+
+  main .maincon1{
+    background-size: 900px 1000px;
+    position: static;
+    margin-left: 40px;
+  }
+
+  main .Lashes .lashBoxes{
+    display: block;
+  }
+
+  main .Lashes .lashBoxes .lash2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  main .Lashes .lashBoxes .lash{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-device-width: 768px){
+  .navBar{
+    position: fixed;
+    top: 0;
+    left: 30px;
+  }
+
+  .logo a h2{
+    font-size:larger;
+  }
+
+  .icons{
+    margin-right: 14px;
+    font-size: medium;
+  }
+
+  main .maincon1{
+    background-size: 700px 800px;
+    position: static;
+    margin-left: 40px;
+  }
+
+  main .maincon1 .maincon1_box .text{
+    position: absolute;
+    bottom: -50px;
+    left: -80px;
+  }
+
+  main .WWO .boxes .box{
+    margin-left: 250px;
+  }
+
+  main .reviews .reviewboxes .review1{
+    height: 650px;
+  }
+  
+  main .reviews .reviewboxes .review2{
+    height: 650px;
+  }
+  
+  main .reviews .reviewboxes .review3{
+    height: 650px;
+  }
+
+  main .customerFavourites h2{
+    margin-top: 150px;
+  }
+
+  main .customerFavourites .lashBoxes .four{
+    display: block;
+  }
+
+  main .customerFavourites .lashBoxes .two{
+    display: block;
+  }
+
+  main .customerFavourites .lashBoxes .lash2{
+    margin-left: -50px;
+  }
+
+  main .customerFavourites .lashBoxes .lash{
+    margin-left: -50px;
+  }
+
+  main .customerFavourites .lashBoxes .lash2 p{
+    margin-left: 0;
+  }
+
+  main .Lashes .lashBoxes .lash2{
+    margin-left: -50px;
+  }
+
+  main .Lashes .lashBoxes .lash{
+    margin-left: -50px;
+  } 
+}
+
+@media screen and (max-device-width: 480px){
+  main .maincon1{
+    background-size: 500px 600px;
+    margin-left: 23px;
+  }
+
+  main .maincon1 .maincon1_box .text{
+    bottom: -670px;
+    left: -80px;
+  }
+
+  main .WWO .boxes .box{
+    height: fit-content;
+    width: 300px;
+    margin-left: 85px;
+  }
+
+  .Three .boxes{
+    display: block;
+  }
+
+  main .Three .boxes .box img{
+    margin-left: 100px;
+  }
+
+  main .kit{
+    display: none;
+  }
+
+  .sponsors{
+    height: fit-content;
+  }
+
+  main .reviews{
+    height: fit-content;
+  }
+
+  .reviews .reviewboxes{
+    display: block;
+  }
+
+  main .reviews .reviewboxes .review1{
+    height: fit-content;
+    width: 300px;
+    margin-left: 85px;
+  }
+
+  main .reviews .reviewboxes .review2{
+    height: fit-content;
+    width: 300px;
+    margin-top: 50px;
+    margin-left: 85px;
+  }
+  
+  main .reviews .reviewboxes .review3{
+    height: fit-content;
+    width: 300px;
+    margin-top: 50px;
+    margin-left: 85px;
+  }
+
+  footer .footer_container{
+    display: block;
+    height: fit-content;
+  }
+
+  footer .footer_container .urban_footer{
+    margin-left: 0;
+    text-align: center;
+  }
+
+  footer .footer_container .urban_footer_2{
+    text-align: center;
+    margin-top: 40px;
+    line-height: 15px;
+  }
+
+  footer .footer_container .last{
+    display: flex;
+    justify-content: space-around;
+  }
+
+  footer .footer_container .last .footer_buttons{
+    margin-top: 40px;
+  }
+
+  footer p{
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-device-width: 380px){
+  .navBar{
+    width: 350px;
+  }
+
+  .navBarIcons{
+    display: block;
+    text-align: center;
+  }
+  .search{
+    margin: 50px 0 40px 70px;
+  }
+
+  .logo{
+    margin-left: 160px;
+  }
+
+  .logo a h2{
+    font-size:xx-large;
+    margin: -50px 0 0 -170px;
+  }
+
+  .icons{
+    margin: -50px 0 0 0;
+    font-size: small;
+  }
+
+  .navBar.active ul{
+    text-align: center;
+    margin-left: 80px;
+  }
+
+  main .black{
+    height: 600px;
+  }
+
+  main .maincon1{
+    background-size: 300px 400px;
+    margin-left: 40px;
+    border-top: 20px solid black;
+    width: 80%;
+  }
+
+  main .maincon1 .maincon1_box .text{
+    bottom: -270px;
+  }
+
+  .maincon1 .text .try{
+    font-size: 20px;
+  }
+
+  .maincon1 .text .diy{
+    font-size: 30px;
+  }
+
+  .maincon1 .text .ext{
+    font-size: 40px;
+  }
+
+  .maincon1 .text p{
+    font-size: 15px;
+  }
+
+  main .maincon1 .maincon1_box .text .button .buy{
+    padding: 10px 20px;
+  }
+
+  main .maincon1 .maincon1_box .text .button .learn{
+    padding: 10px 20px;
+  }
+
+  main .WWO .boxes .box{
+    margin-left: 40px;
+  }
+
+  main .Three .boxes .box img{
+    margin-left: 50px;
+  }
+
+  main .sponsors h6{
+    display: none;
+  }
+
+  main .reviews .reviewboxes .review1{
+    margin-left: 40px;
+  }
+
+  main .reviews .reviewboxes .review2{
+    margin-left: 40px;
+  }
+
+  main .reviews .reviewboxes .review3{
+    margin-left: 40px;
+  }
+
+  .Lashes .lashBoxes .lash2 p{
+    margin-right: 20px;
+  }
+  
+  .Lashes .lashBoxes .lash p{
+    margin-left: -70px;
+  }
+}
